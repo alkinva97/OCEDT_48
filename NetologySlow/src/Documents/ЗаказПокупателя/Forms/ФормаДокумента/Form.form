@@ -489,6 +489,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Товары.Номенклатура</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыНоменклатураПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыНоменклатураРасширеннаяПодсказка</name>
             <id>122</id>
